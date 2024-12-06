@@ -1,0 +1,49 @@
+.package{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+
+    background-image:  linear-gradient(to bottom right, rgb(220, 249, 157), rgb(183, 135, 237)) ;
+}
+
+
+.productcard{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: start;
+
+}
+.card-text p{
+    color: black ;
+}
+
+
+.img-fluid{
+    width:900px;
+    height: 400px;
+    transition: 1.5s;
+    filter: drop-shadow(10px 10px 5px rgb(139, 138, 138));
+
+}
+
+.productcard h1{
+    color: black;
+}
+
+.img-fluid:hover{
+    transform: scale(1.1);
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    color: #ffffff;
+}

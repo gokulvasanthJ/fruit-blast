@@ -1,0 +1,30 @@
+.navbar{
+    width:  100%;
+    font-weight: 500;
+    background-color: black;
+    
+}
+.container{
+    display: flex;
+    gap:100px;
+    background-color: transparent;
+
+
+
+}
+
+
+.icons-container{
+    display: flex;
+}
+.custom-nav{
+display: flex;
+gap: 10px;
+background-color: bla;
+
+
+}
+
+.icons .navicon i{
+    font-size: 1.5rem;
+}

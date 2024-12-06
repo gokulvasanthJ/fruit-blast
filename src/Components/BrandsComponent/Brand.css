@@ -1,0 +1,24 @@
+.brand-container{
+    margin: 0 auto;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(167, 228, 244);
+    gap: 40px;
+
+}
+
+.brand-container h6{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(74, 80, 86);
+    text-align: center;
+    padding: 20px;
+
+}
+
+.brand-img{
+    width: 190px;
+    height: 300px;
+    background-color: rgb(167, 228, 244);
+}

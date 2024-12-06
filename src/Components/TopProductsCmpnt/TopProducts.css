@@ -1,0 +1,48 @@
+.topproducts-container{
+    display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin: 0 auto; /* Center the container */
+  padding: 50px 0px 0px   0px; /* Add padding for inner spacing */
+}
+/* 
+.catogories-containe h1{
+
+} */
+.pageseparator-img{
+    width: 250px;
+    margin-bottom: 3px;
+}
+.card-body p{
+    color: red;
+    font-weight: 600;
+}
+
+
+.row-cols-1{
+    margin-top: 3px;
+}
+
+
+.card{
+  border: none;
+  text-align: center;
+
+}
+.card-title{
+  color: rgb(73, 72, 72);
+  font-weight:400;
+}
+
+.card-img-top{
+  transition: transform 1.5s;
+  
+}
+.card-title:hover{
+  color: red;
+}
+
+.card-img-top:hover {
+transform: scale(1.1);
+
+}  
