@@ -1,42 +1,48 @@
-.blog-container{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto ;
-    padding: 20px  0px;
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.pageseparator-img{
-    width: 250px;
-    margin-bottom: 3px;
+.pageseparator-img {
+  width: 250px;
+  margin-bottom: 3px;
 }
-.card-group{
-padding: 0px 0px;
+.card-group {
+  padding: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blogimg {
+  width: 300px;
+  height: 200px;
+}
 
-}.blogimg{
+.blogcard {
+  text-align: start;
+  margin-left: 30px;
+}
+
+.blogcard h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.blogcard p {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(93, 91, 91);
+}
+.carddate {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .blogcard {
     width: 300px;
-    height: 200px;      
-}
-
-.blogcard{
     text-align: start;
-    margin-left: 30px;
-    
-}
-
-.blogcard h1{
-    font-size: 20px;
-    font-weight: 500;
-    color: black;
-
-}
-
-
-.blogcard p{
-    font-size: 13px;
-    font-weight: 600;
-    color: rgb(93, 91, 91);
-
-    
-}
-.carddate{
-    display: flex;
+  }
 }
