@@ -1,7 +1,7 @@
 import React from 'react'
 import '../TestimonialComponent/Testimonial.css'
 import testimonialsbackimage1 from '../TestimonialComponent/Testimonialimg/testimonialsbackimage1.jpg'
-import testimonialsbackimage2 from '../TestimonialComponent/Testimonialimg/testimonialsbackimage2.jpg'
+import testimonialsbackimage2 from '../TestimonialComponent/Testimonialimg/testimonialsbackimage5.jpg'
 import testimonialsbackimage3 from '../TestimonialComponent/Testimonialimg/testimonialsbackimage4.jpg'
 
 import testimonialprofile1 from '../TestimonialComponent/Testimonialimg/people5.jpg'
@@ -22,24 +22,24 @@ function Testimonial() {
       <img src={testimonialsbackimage1} class="d-block w-100" alt="..."/>
       <div class="carousel-caption testimonial-text d-none d-md-block">
       <img src={testimonialprofile1} class='peopleimg' alt="..."/>
-        <h5 class='head-testimonial'>First slide label</h5>
-        <p class='para-testimonial'>Some representative placeholder content for the first slide.</p>
+        <h5 class='head-testimonial'>Ms.Medosa</h5>
+        <p class='para-testimonial'>"The freshest fruits delivered to my doorstep! Fruit Blast is my go-to for healthy and delicious snacks."</p>
       </div>
     </div>
     <div class="carousel-item testimonial-card">
       <img src={testimonialsbackimage2} class="d-block w-100" alt="..."/>
       <div class="carousel-caption testimonial-text d-none d-md-block">
       <img src={testimonialprofile3} class='peopleimg' alt="..."/>
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>Mr.Robert</h5>
+        <p>"Amazing quality and great prices! I love how easy it is to shop for fruits on Fruit Blast."</p>
       </div>
     </div>
     <div class="carousel-item testimonial-card">
       <img src={testimonialsbackimage3} class="d-block w-100" alt="..."/>
       <div class="carousel-caption testimonial-text d-none d-md-block">
       <img src={testimonialprofile2} class='peopleimg' alt="..."/>
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>Ms.Davincy</h5>
+        <p>Some representative placeholder content for the third slide."Fruit Blast has transformed my fruit shopping experience—fast, convenient, and super fresh!"</p>
       </div>
     </div>
   </div>
