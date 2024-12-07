@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
  
-  margin: 0 auto; /* Center the container */
-  padding: 50px 0px 0px   0px; /* Add padding for inner spacing */
+  margin: 0 auto;
+  padding: 50px 0px 0px   0px; 
 }
 /* 
 .catogories-containe h1{

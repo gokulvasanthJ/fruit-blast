@@ -9,11 +9,8 @@
   margin-bottom: 3px;
 }
 .card-group {
-  padding: 0px 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 10px 0px 0px 90px;
+  
 }
 .blogimg {
   width: 300px;
@@ -44,5 +41,9 @@
   .blogcard {
     width: 300px;
     text-align: start;
+  }
+  .card-group {
+    padding: 0px 0px 0px 0px;
+    
   }
 }

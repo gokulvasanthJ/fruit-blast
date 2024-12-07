@@ -18,8 +18,8 @@
 .row-cols-1 {
   margin-top: 3px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  
+  justify-content: center; 
   align-items: center;
 }
 
@@ -42,3 +42,4 @@
 .card-img-top:hover {
   transform: scale(1.1);
 }
+

@@ -8,6 +8,7 @@ import ProductPackage from "../Components/ProductPackage/ProductPackage";
 import Footer from "../Components/footer/Footer";
 import Blog from "../Components/BlogComponent/Blog";
 import Brand from "../Components/BrandsComponent/Brand";
+import Testimonial from "../Components/TestimonialComponent/Testimonial";
 
 function HomePages() {
   return (
@@ -18,6 +19,7 @@ function HomePages() {
       <Banner />
       <TopProducts />
       <ProductPackage />
+      <Testimonial/>
       <Blog />
       <Brand />
       <Footer />
