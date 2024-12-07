@@ -30,20 +30,28 @@
 
 
 
+
+
 @media only screen and (max-width: 700px) {
     #carouselExampleCaptions{
         margin-right: -50px;
         height: auto;
     }
-    .testimonial-text{
-    color: rgb(0, 0, 0);
-    display: flex;
-    width: 70%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .peopleimg{
+        width: auto;
+        height: auto;
+        border: solid rgb(134, 154, 164) 5px;
+        border-style: double;
+        
+    }
+    .testimonial-text h5{
+        font-size: auto;
+        font-weight: auto;
+    }
+    .testimonial-text p{
+        font-size: auto;
+        font-weight: auto;
+    }
     
-}
   }
   

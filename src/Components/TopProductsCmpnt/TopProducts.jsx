@@ -21,7 +21,7 @@ function TopProducts() {
 
 
 
-<div className="row row-cols-1 row-cols-md-4 g-4">
+<div className="row topproductsimg-container row-cols-1 row-cols-md-4 g-4">
 <div className="col">
   <div className="card">
     <img src={topfuit1} className="card-img-top" alt="..."/>

@@ -1,4 +1,4 @@
-.carousel-caption h1 {
+.carousal-text  h1 {
   color: rgb(0, 0, 0);
   font-size: 42px;
   text-align: start;
@@ -43,19 +43,19 @@
     text-align: start;
     margin-left: -10px;
   }
-  .carousel-caption h1 {
+  .carousal-text  h1 {
     color: rgb(0, 0, 0);
     font-size: 23px;
     text-align: start;
   }
-  .carousel-caption .shopnow-button {
-    width: 120px;
+  .carousal-text .shopnow-button {
+    width: 100px;
     height: 30px;
     font-size: 13px;
     margin-top: -10px;
     padding: 0px 0px 2px 0px;
   }
-  .carousel-caption p {
+  .carousal-text  p {
     display: none;
   }
 }

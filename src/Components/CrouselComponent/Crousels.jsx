@@ -12,7 +12,7 @@ function Crousels() {
             <img src={banner1} className="d-block w-100" alt="..." />
 
             <div className="carousel-caption carousal-text ">
-              <h1>A better alternatives than fast foods !</h1>
+              <h1>A better alternatives than fast foods !</h1> 
               <p>
                 It is a long established fact that a reader will be
                 dikkkstracted by the page when looking of using Lorem Ipsum is

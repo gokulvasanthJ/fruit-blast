@@ -12,7 +12,7 @@
   padding: 10px 0px 0px 90px;
   
 }
-.blogimg {
+.blogimg{
   width: 300px;
   height: 200px;
 }
@@ -43,7 +43,8 @@
     text-align: start;
   }
   .card-group {
-    padding: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 55px;
     
   }
+  
 }
